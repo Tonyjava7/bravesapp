@@ -10,7 +10,10 @@ export default class App extends React.Component {
     return (
       <View style={styles.container}>
         <Text>The Braves!!</Text>
+
+
         <Text> Hello </Text>
+
           <Button 
             style = {button.container}
             onPress={this.onPressLearnMore}
